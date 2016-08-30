@@ -9,11 +9,11 @@ class Controller_Login extends Controller
     const DB_PASSWORD = "meangirls";
 
     private $pdo;
-//
-//	function __construct()
-//	{
-//		$this->view = new View();
-//	}
+
+	function __construct()
+	{
+		$this->view = new View();
+	}
 
     private function getPDO()
     {
@@ -36,10 +36,15 @@ class Controller_Login extends Controller
         if ($this->isValidEmail($email) && $this->isValidPassword($password)) {
             $stmt = $this->getPDO()->prepare('SELECT id, last_visit, password FROM user WHERE email = ?');
             $stmt->execute(array($email));
-            $row = $stmt->fetchColumn();
-            if (isset($row['password']) && $this->passwordsAreEqual($password, $row['password'])) {
-                echo json_encode(array('status' => true, 'id' => $row['id'], 'last_visit' => $row['last_visit']));
-                // todo update last_visit
+            while ($row = $stmt->fetch()) {
+                if (isset($row['password']) && $this->passwordsAreEqual($password, $row['password'])) {
+                    echo json_encode(array('status' => true, 'id' => $row['id'], 'last_visit' => $row['last_visit']));
+                    $now = date("Y-m-d H:i:s");
+                    $sql = "UPDATE user SET last_visit = ? WHERE id = ?";
+                    $stm = $this->getPDO()->prepare($sql);
+                    $stm->execute(array($now, $row['id']));
+
+                }
             }
         } else {
             echo json_encode(array('status' => false));

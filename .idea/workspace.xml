@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a826b996-d111-4719-a520-08a881caa2b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\styles\bootstrap.min.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controller_login.php" afterPath="$PROJECT_DIR$/controllers/controller_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/template_view.php" afterPath="$PROJECT_DIR$/views/template_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zinit_test_task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,13 +46,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller_login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controller_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8415765">
-              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            <state vertical-scroll-proportion="-9.777778">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
-                <marker date="1472586969384" expanded="true" signature="994:1051" placeholder="SELECT last_..users..." />
+                <marker date="1472588427879" expanded="true" signature="984:1041" placeholder="SELECT last_..users..." />
+                <marker date="1472588427879" expanded="true" signature="1431:1474" placeholder="UPDATE user ..." />
               </folding>
             </state>
           </provider>
@@ -72,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template_view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template_view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/template_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.309524">
-              <caret line="28" column="114" selection-start-line="28" selection-start-column="114" selection-end-line="28" selection-end-column="114" />
+            <state vertical-scroll-proportion="0.41764706">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -119,8 +116,8 @@
         <option value="$PROJECT_DIR$/core/View.php" />
         <option value="$PROJECT_DIR$/core/Controller.php" />
         <option value="$PROJECT_DIR$/core/Route.php" />
-        <option value="$PROJECT_DIR$/views/template_view.php" />
         <option value="$PROJECT_DIR$/controllers/controller_login.php" />
+        <option value="$PROJECT_DIR$/views/template_view.php" />
       </list>
     </option>
   </component>
@@ -279,7 +276,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <marker date="1472586969384" expanded="true" signature="994:1051" placeholder="SELECT last_..users..." />
+            <marker date="1472588427879" expanded="true" signature="984:1041" placeholder="SELECT last_..users..." />
+            <marker date="1472588427879" expanded="true" signature="1431:1474" placeholder="UPDATE user ..." />
           </folding>
         </state>
       </provider>
@@ -398,21 +396,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/template_view.php">
+    <entry file="file://$PROJECT_DIR$/controllers/controller_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.309524">
-          <caret line="28" column="114" selection-start-line="28" selection-start-column="114" selection-end-line="28" selection-end-column="114" />
-          <folding />
+        <state vertical-scroll-proportion="-9.777778">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <marker date="1472588427879" expanded="true" signature="984:1041" placeholder="SELECT last_..users..." />
+            <marker date="1472588427879" expanded="true" signature="1431:1474" placeholder="UPDATE user ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controller_login.php">
+    <entry file="file://$PROJECT_DIR$/views/template_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8415765">
-          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding>
-            <marker date="1472586969384" expanded="true" signature="994:1051" placeholder="SELECT last_..users..." />
-          </folding>
+        <state vertical-scroll-proportion="0.41764706">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
