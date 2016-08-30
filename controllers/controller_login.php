@@ -6,7 +6,7 @@
  * Date: 30.08.2016
  * Time: 13:18
  */
-require_once '../models/Model_Login.php';
+require_once '/models/Model_Login.php';
 
 class Controller_Login extends Controller
 {

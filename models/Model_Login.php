@@ -6,6 +6,8 @@
  * Date: 30.08.2016
  * Time: 23:25
  */
+require_once '/core/Model.php';
+
 class Model_Login extends Model
 {
     const HOST = "127.0.0.1";
